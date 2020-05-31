@@ -3,7 +3,7 @@ import logo from './icons/zapato.svg'
 class nab extends React.Component{
     render(){
         return <div>
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark sticky-top">
                 <a className="navbar-brand" href="#">
                     <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="Replicalzado"></img>
                     Replicalzado
