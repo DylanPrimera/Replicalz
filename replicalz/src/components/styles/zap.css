@@ -1,0 +1,60 @@
+@font-face{
+    font-family: titulo;
+    src: url(../fonts/NotoSansJP.otf);
+}
+@font-face{
+    font-family: texto;
+    src: url(../fonts/Montserrat.ttf);
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.z{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.vertical-line{
+    width: 2px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: silver;
+}
+.horizontal-line::after{
+    content: '';
+    width: auto;
+    height: 2px;
+    display: block;
+    background-color: silver;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.cuadro{
+    display: flex;
+    font-family: texto;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.tes{
+    font-family: titulo;
+}
+#uni{
+    margin-left: 90px;
+}
+#sbut{
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+@font-face{
+    font-family: texto;
+    src: url(../fonts/Montserrat.ttf);
+}
+.para{
+    font-family: texto;
+}
+#naab{
+    background-color: black;
+}

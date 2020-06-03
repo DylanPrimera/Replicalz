@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './icons/zapato.svg'
+import './styles/nab.css'
 class nab extends React.Component{
     render(){
-        return <div>
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark sticky-top">
+        return <div className="para">
+            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark sticky-top" id="naab">
                 <a className="navbar-brand" href="#">
                     <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="Replicalzado"></img>
                     Replicalzado
@@ -24,7 +25,7 @@ class nab extends React.Component{
                         </li>
                     </ul>
                     <form className="form-inline justify-content-center">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search"></input>
+                        <input className="form-control mr-sm-2" type="search"  aria-label="Search"></input>
                         <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
                 </div>
