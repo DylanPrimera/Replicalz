@@ -16,11 +16,11 @@ class zap extends React.Component{
             <div className="fila">
                 <div className="z">
                    
-                    <img src={m} width="190" height="190"></img>
+                    <img src={m} width="190" height="190" id="img"></img>
                    
                     <div className="tes">
                         
-                            <h4>Adidas Stan Smith Tornasol</h4>
+                        <h4>Adidas Stan Smith Tornasol</h4>
                     
                     </div>
                     <div className="cuadro">
@@ -30,7 +30,7 @@ class zap extends React.Component{
                             </button>
 
                             <button type="button" class="btn btn-outline-info" id="sbut">
-                                Sale Importaciones <span class="badge badge-secondary">1U</span>
+                                Sale Importaciones <span class="badge badge-secondary" id="uni2">1U</span>
                             </button>
                         </div>
                     </div>
