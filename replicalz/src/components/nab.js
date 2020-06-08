@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 import logo from './icons/zapato.svg'
 import './styles/nab.css'
 class nab extends React.Component{
@@ -15,13 +16,13 @@ class nab extends React.Component{
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav mr-auto text-center">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Inicio</a>
+                            <NavLink to="/" className="nav-link">Inicio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Hombre</a>
+                            <NavLink to="/hombre" className="nav-link">Hombre</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Mujer</a>
+                            <NavLink to="/mujer" className="nav-link">Mujer</NavLink>
                         </li>
                     </ul>
                     <form className="form-inline justify-content-center">
